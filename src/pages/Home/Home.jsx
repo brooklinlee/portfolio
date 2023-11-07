@@ -8,11 +8,11 @@ import '../Home/Home.css'
 
 const Home = () => {
   return ( 
-    <>
+    <main className="home-page-container">
       <HomeHeader />
       <Skills />
       <ProjectList />
-    </>
+    </main>
   )
 }
 
