@@ -6,7 +6,7 @@ import '../Nav/Nav.css'
 
 const Nav = () => {
   return ( 
-    <header>
+    <header className='sticky fade-in'>
     <nav>
       <NavLink to='/'>HOME</NavLink>
       <NavLink to='/projects'>PROJECTS</NavLink>

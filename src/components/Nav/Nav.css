@@ -1,5 +1,6 @@
 header {
   padding: 10px;
+  background-color: transparent;
 }
 
 nav {
@@ -7,6 +8,7 @@ nav {
   justify-content: flex-end;
   margin: 0;
   padding: 0;
+  margin-right: 28px;
 }
 
 nav a {
@@ -17,5 +19,14 @@ nav a {
 
 nav a.active {
   font-weight: 800;
+  color: white;
 }
 
+header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--blue); 
+  opacity: .9; 
+}
