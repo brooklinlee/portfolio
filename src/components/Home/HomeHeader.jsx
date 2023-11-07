@@ -3,18 +3,17 @@ import'./HomeHeader.css'
 
 const HomeHeader = () => {
   return (  
-    <main className='home-header'>
-      <div>
-        <div className='hello-msg'>
-          <h1>Hello! I'm <br></br>Brooklin Lee</h1>
-          <p>software engineer</p>
-          <button>View Projects</button>
-        </div>
+    <div className='home-header'>
+      <div className='left-container'>
+        <h1>Hello! I'm</h1>
+        <h1 id='name'>Brooklin Lee</h1>
+        <p>software engineer</p>
+        <button>View Projects</button>
       </div>
-      <div>
+      <div className='right-container'>
         <img src="./src/assets/dev.svg" alt="Brooklin Lee" />
       </div>
-    </main>
+    </div>
   )
 }
 
