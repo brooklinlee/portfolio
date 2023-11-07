@@ -1,4 +1,4 @@
-// components
+// imports
 import { NavLink } from 'react-router-dom'
 
 // css
