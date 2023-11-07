@@ -1,23 +1,21 @@
 /* global styles for the entire application */
 
 :root {
-  font-family: var(--body-font-family);
-  --heading-font-family: 'Prata', serif;
-  --body-font-family: 'Lato', sans-serif;
+  font-family: var(--dm-san);
+  --dm-serif: 'DM Serif Display', serif;
+  --dm-san: 'DM Sans', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  /* color: rgba(255, 255, 255, 0.87); */
-  /* background-color: #242424; */
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-color: var(--blue);
 
-  --background-color: #FFFFFF;
-  --background-secondary-color: #F0F0EE;
-  --text-color: #242424;
-  --accent-color-one: #C7A37D;
-  --accent-color-two: #9AA283;
+  --blue: #144272;
+  --dark-blue: #0A2647;
+  --light-blue: #2C74B3;
+
+  --text-color: #FFFFFF;
+  --link-color: #B0BDC1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,16 +24,16 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* font-family: 'Lato', sans-serif;
-font-family: 'Prata', serif; */
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'DM Serif Display', serif;  */
 
 a {
   font-weight: 500;
-  color: var(--text-color);
+  color: var(--link-color);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--text-color);
 }
 
 body {

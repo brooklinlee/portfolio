@@ -6,7 +6,7 @@ const Nav = () => {
     <header>
     <nav>
       <NavLink to='/'>HOME</NavLink>
-      <NavLink to='/portfolio'>PORTFOLIO</NavLink>
+      <NavLink to='/projects'>PROJECTS</NavLink>
       <NavLink to='/about'>ABOUT</NavLink>
       <NavLink to='/contact'>CONTACT ME</NavLink>
     </nav>
