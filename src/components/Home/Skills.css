@@ -20,20 +20,50 @@
 
 .skill-card {
   border-radius: 4px;
-  height: 500px;
-  width: 350px;
+  height: 450px;
+  max-height: fit-content;
+  width: 300px;
   background-color: var(--blue);
   margin: 0 20px;
   transition: transform 0.3s;
   /* cursor: pointer; */
+  padding: 50px;
 }
-
 
 .skill-card:hover {
   transform: scale(1.1); 
 }
 
-
 .skill-card:not(:hover) {
   transition: transform 0.3s;
+}
+
+.skill-card img {
+  height: 56px;
+  width: 56px;
+  margin-bottom: 20px;
+}
+
+.skill-card h3 {
+  font-size: 28px;
+  font-weight: 800;
+
+}
+
+.skill-card ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.skill-card li::before {
+  content: '>> ';
+  color: var(--light-blue);
+  font-weight: 800;
+  margin-right: 8px;
+}
+
+.skill-card li {
+  font-size: 18px;
+  color: var(link-color);
+  padding-bottom: 14px;
 }

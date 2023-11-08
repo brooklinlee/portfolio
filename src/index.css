@@ -9,7 +9,9 @@
   font-weight: 400;
 
   color: var(--text-color);
-  background-color: var(--blue);
+  background-color: var(--dark-blue);
+  background-image: url('./assets/texture.svg');
+  
 
   --blue: #0A2647;
   --dark-blue: #071B32;
@@ -25,6 +27,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
 
 a {
   font-weight: 500;
