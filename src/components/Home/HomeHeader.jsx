@@ -11,7 +11,7 @@ const HomeHeader = () => {
         <button>View Projects</button>
       </div>
       <div className='right-container'>
-        <img src="./src/assets/dev.svg" alt="Brooklin Lee" />
+        <img src="./src/assets/dev-shadow.svg" alt="Brooklin Lee" />
       </div>
     </div>
   )

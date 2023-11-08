@@ -11,8 +11,9 @@
   color: var(--text-color);
   background-color: var(--blue);
 
-  --blue: #144272;
-  --dark-blue: #0A2647;
+  --blue: #0A2647;
+  --dark-blue: #071B32;
+  /* --dark-blue: #0A2647; */
   --light-blue: #2C74B3;
 
   --text-color: #FFFFFF;

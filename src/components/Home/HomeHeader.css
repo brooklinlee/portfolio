@@ -1,5 +1,4 @@
 .home-header {
-  /* border: 1px solid white; */
   width: 100%;
   height: 640px;
   margin: 0;
@@ -8,6 +7,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  background-size: cover;
 }
 
 .left-container,
@@ -48,6 +48,6 @@
 }
 
 .right-container img {
-  width: 420px;
+  width: 500px;
   height: auto;
 }

@@ -25,6 +25,7 @@
   background-color: var(--blue);
   margin: 0 20px;
   transition: transform 0.3s;
+  /* cursor: pointer; */
 }
 
 
