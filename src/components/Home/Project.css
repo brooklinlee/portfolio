@@ -3,42 +3,46 @@ body {
 
 }
 
-.App {
+.carousel-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .carousel {
   overflow: hidden;
   width: 700px;
+  height: 490px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .inner {
   white-space: nowrap;
   transition: transform 0.3s;
+  /* display: flex; */
 }
 
 .carousel-img {
-  width: 250px;
+  width: 450px;
   padding: 0 20px;
 }
 
 .carousel-item {
-  display: inline-flex;
-  /* flex-direction: column; */
+  /* display: inline-flex; */
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 490px;
 }
 
 .carousel-item-text {
-  margin: 40px 0;
+  /* margin: 40px 0; */
   padding: 0 20px;
   white-space: normal;
 }
@@ -70,4 +74,8 @@ body {
 
 .indicator-btn-active {
   color: var(--light-blue);
+  background: none;
+  font-size: 60px;
+  padding: 0 10px;
+  cursor: pointer;
 }

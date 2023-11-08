@@ -12,26 +12,31 @@ const ProjectList = () => {
       name: 'WellFit - Workout Tracker',
       tech: 'Python / Django / Docker',
       image: ('./src/assets/wellfit-pc.svg'),
+      // link: (),
     },
     {
       name: 'Wandr - Travel Themed Social Media',
       tech: 'Full-Stack / Group Git Workflow / React / MongoDB & Mongoose',
       image:('./src/assets/wandr-pc.svg'),
-    },
-    {
-      name: 'The Yum Yum Hub - Recipe Collector',
-      tech: 'Python / Django / Docker',
-      image: ('./src/assets/yyh-pc.svg'),
+      // link: (),
     },
     {
       name: 'Word Whimsy - Online Journaling',
       tech: 'JavaScript / Express.js / MongoDB & Mongoose',
       image: ('./src/assets/word-whimsy-pc.svg'),
+      // link: (),
+    },
+    {
+      name: 'The Yum Yum Hub - Recipe Collector',
+      tech: 'Python / Django / Docker',
+      image: ('./src/assets/yyh-pc.svg'),
+      // link: (),
     },
     {
       name: 'The Silly Goose Grape-Venture',
       tech: 'HTML & CSS / JavaScript / Game Logic',
       image: ('./src/assets/tsgg-pc.svg'),
+      // link: (),
     },
   ]
 
@@ -47,10 +52,13 @@ const ProjectList = () => {
   }
 
   return (
+    <div className="carousel-container">
+
       <div className="carousel">
         <div 
           className="inner" 
-          style={{ transform: `translate(-${activeIndex * 100}%)` }}
+          // style={{ transform: `translateY(-${activeIndex * 100}%)` }}
+          style={{ transform: `translateY(-${activeIndex * 20}%)` }}
         >
           {items.map((item) => {
             return <ProjectCard item={item} key={item.name} width="100%" />
@@ -58,6 +66,7 @@ const ProjectList = () => {
           )}
         </div>
 
+      </div>
       <div className="carousel-btns">
 
         <button
@@ -76,7 +85,7 @@ const ProjectList = () => {
                 onClick={() => {
                   updateIndex(index);
                 }}
-                className='indicator-btn'
+                className={`${index === activeIndex? 'indicator-btn' : 'indicator-btn-active'}`}
                 key={index}
               >
                 .
@@ -93,9 +102,8 @@ const ProjectList = () => {
         >
           &gt;
         </button>
-          </div>
-      </div>
-
+        </div>
+    </div>
   )
 }
 
