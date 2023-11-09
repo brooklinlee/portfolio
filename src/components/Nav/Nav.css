@@ -27,6 +27,11 @@ header.sticky {
   top: 0;
   width: 100%;
   z-index: 100;
-  background-color: var(--blue); 
+  /* background-color: var(--blue);  */
   opacity: .9; 
+}
+
+header.sticky a {
+  font-size: 24px;
+
 }

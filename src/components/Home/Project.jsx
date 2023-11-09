@@ -57,7 +57,6 @@ const ProjectList = () => {
       <div className="carousel">
         <div 
           className="inner" 
-          // style={{ transform: `translateY(-${activeIndex * 100}%)` }}
           style={{ transform: `translateY(-${activeIndex * 20}%)` }}
         >
           {items.map((item) => {
@@ -65,10 +64,8 @@ const ProjectList = () => {
             }
           )}
         </div>
-
       </div>
       <div className="carousel-btns">
-
         <button
           onClick={() => {
             updateIndex(activeIndex - 1);
@@ -77,7 +74,6 @@ const ProjectList = () => {
         >
           &lt;
         </button>
-
         <div className="indicators">
           {items.map((item, index) => {
             return (
@@ -92,7 +88,6 @@ const ProjectList = () => {
               </button>
             )
           })}
-
         </div>
         <button
           onClick={() => {
@@ -106,6 +101,5 @@ const ProjectList = () => {
     </div>
   )
 }
-
 
 export default ProjectList 

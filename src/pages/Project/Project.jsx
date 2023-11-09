@@ -5,7 +5,6 @@ import ProjectIndex from "../../components/Project/ProjectIndex"
 const Project = () => {
   return ( 
     <>
-    <h1>Projects</h1>
     <ProjectHeader />
     <ProjectIndex />
     </>

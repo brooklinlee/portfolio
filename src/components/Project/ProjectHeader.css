@@ -1,0 +1,13 @@
+.project-header-container {
+  height: 350px;
+  background-color: var(--med-blue);
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-header-container h1 {
+  padding-top: 70px;
+  font-size: 100px;
+}
