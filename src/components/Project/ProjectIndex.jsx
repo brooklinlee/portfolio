@@ -53,7 +53,10 @@ const ProjectIndex = () => {
 
   return (  
     <main>
-      <ProjectBanner />
+      {projects.map((project) => {
+        return <ProjectBanner project={project} key={project.name}/>
+      })}
+      
     </main>
   )
 }
