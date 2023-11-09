@@ -53,7 +53,7 @@ const ProjectList = () => {
 
   return (
     <div className="carousel-container">
-
+      <h1 className='project-spotlight'>Project Spotlight</h1>
       <div className="carousel">
         <div 
           className="inner" 

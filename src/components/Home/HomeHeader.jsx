@@ -7,11 +7,11 @@ const HomeHeader = () => {
       <div className='left-container'>
         <h1>Hello! I'm</h1>
         <h1 id='name'>Brooklin Lee</h1>
-        <p>software engineer</p>
+        <p>Software Engineer</p>
         <button>View Projects</button>
       </div>
       <div className='right-container'>
-        <img src="./src/assets/dev-shadow.svg" alt="Brooklin Lee" />
+        <img src="./src/assets/1.svg" alt="Brooklin Lee" />
       </div>
     </div>
   )

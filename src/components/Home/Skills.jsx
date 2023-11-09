@@ -4,10 +4,10 @@ import './Skills.css'
 const Skills = () => {
   return ( 
     <div className='skills-container'>
-      <h1>Top Skills</h1>
+      <h1>Dive into Brooklin's Toolbox</h1>
       <div className='skill-card-container'>
         <div className='skill-card'>
-          <img src="./src/assets/tech-icon.svg" alt="tech icon"/>
+          <img src="./src/assets/4.svg" alt="tech icon"/>
           <h3>Technologies</h3>
           <ul>
             <li>HTML/CSS</li>
@@ -19,7 +19,7 @@ const Skills = () => {
           </ul>
         </div>
         <div className='skill-card'>
-          <img src="./src/assets/framework-icon.svg" alt="tech icon"/>
+          <img src="./src/assets/2.svg" alt="tech icon"/>
         <h3>Frameworks & Services</h3>
           <ul>
             <li>Github</li>
@@ -33,7 +33,7 @@ const Skills = () => {
           </ul>
         </div>
         <div className='skill-card'>
-          <img src="./src/assets/method-icon.svg" alt="tech icon"/>
+          <img src="./src/assets/3.svg" alt="tech icon"/>
         <h3>Methodologies</h3>
           <ul>
             <li>Agile development</li>

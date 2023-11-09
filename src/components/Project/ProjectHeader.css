@@ -1,6 +1,8 @@
 .project-header-container {
   height: 350px;
-  background-color: var(--med-blue);
+  background-image: url('./src/assets/background-scribble.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: -50px;
   display: flex;
   justify-content: center;
