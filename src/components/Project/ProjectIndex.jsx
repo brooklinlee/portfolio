@@ -1,7 +1,10 @@
 //  components
 import ProjectBanner from "./ProjectBanner"
 
-const ProjectIndex = () => {
+// css
+import './ProjectIndex.css'
+
+function ProjectIndex() {
 
   const projects = [
     {
@@ -16,7 +19,7 @@ const ProjectIndex = () => {
     {
       name: 'Wandr - Travel Themed Social Media',
       tech: 'MERN Stack Application, Full-Stack Development, Group Github Workflow, JWT Authentication, Cloudinary for photo uploads',
-      image:('./src/assets/wandr-pc.svg'),
+      image: ('./src/assets/wandr-pc.svg'),
       description: 'Wandr is a web-based application with a mission to inspire individuals to step out of their comfort zones, explore diverse cultures, landscapes, and create lasting memories. We believe that every journey has a unique story, and by sharing these stories, we aim to inspire others to embark on their own adventures. Through our platform, we provide resources, inspiration, and a community for travelers to connect, exchange ideas, and foster a sense of belonging. Together, we\'re making the world a more connected and inspired place.',
       // link: (),
       github: 'https://github.com/brooklinlee/wandr-front-end.git',
@@ -51,12 +54,11 @@ const ProjectIndex = () => {
     },
   ]
 
-  return (  
-    <main>
+  return (
+    <main className="project-banner-container">
       {projects.map((project) => {
-        return <ProjectBanner project={project} key={project.name}/>
+        return <ProjectBanner project={project} key={project.name} />
       })}
-      
     </main>
   )
 }
