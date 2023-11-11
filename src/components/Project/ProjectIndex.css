@@ -9,9 +9,20 @@
 .project-card {
   width: 80%;
   margin: 2% auto;
+  background-color: var(--background-one);
+  padding: 36px 60px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  display: flex;
 }
 
-.project-card img {
-  border-radius: 12px;
+.project-img {
+  flex: 33%;
+  border-radius: 10px;
+  
 }
 
+.txt-box {
+  flex: 66%;
+  margin-left: 36px;
+}
