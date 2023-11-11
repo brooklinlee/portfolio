@@ -5,11 +5,11 @@ header {
 
 nav {
   display: flex;
-  /* justify-content: flex-end; */
   justify-content: center;
   margin: 0;
   padding: 0;
   margin-right: 28px;
+  width: 100%;
 }
 
 nav a {
@@ -24,16 +24,4 @@ nav a.active {
   color: var(--text-color);
 }
 
-/* header.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  background-color: var(--background-two); 
-  opacity: .9; 
-}
 
-header.sticky a {
-  font-size: 32px;
-
-} */
