@@ -11,7 +11,7 @@ function ProjectIndex() {
       name: 'WellFit - Workout Tracker',
       tech: 'Python, Django, Authentication, Neon DB, Full CRUD functionality, Data Entity Managment, CSS Flexbox & Media Queries, Git Version Control',
       image: ('./src/assets/wellfit-pc.svg'),
-      description: 'Did you know that you are almost 50% more likely to achieve your goals if you write them down and track them regularly? How many times have you set a fitness goal only to struggle with consistency and progress tracking? Enter WellFit! WellFit empowers you to reach your fitness goals by providing a dedicated space to log your workouts, add notes, record movement sets, and stay organized. Plus, it reminds you to log your daily workouts, helping you stay on track. Easily record your workouts with details like workout type, datae, duration, and a description. Customize your workout by adding multiple sets that include information such as set name, weight, reps and equipment used. This app is also completely mobile friendly',
+      description: 'WellFit empowers you to reach your fitness goals by providing a dedicated space to log your workouts, add notes, record movement sets, and stay organized. Plus, it reminds you to log your daily workouts, helping you stay on track. Easily record your workouts with details like workout type, datae, duration, and a description. Customize your workout by adding multiple sets that include information such as set name, weight, reps and equipment used. This app is also completely mobile friendly.',
       // link: (),
       github: 'https://github.com/brooklinlee/wellfit.git',
       deployment: 'https://wellfit.fly.dev/home/',

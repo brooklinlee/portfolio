@@ -7,11 +7,13 @@ const ProjectBanner = ({project}) => {
     <div className="project-card">
       <img src={project.image} alt="image of app" className='project-img' />
       <div className='txt-box'>
-      <h3>{project.name}</h3>
-      <p>{project.tech}</p>
+      <a href={project.deployment}><h3>{project.name}</h3></a>
+      <p><b>{project.tech}</b></p>
       <p>{project.description}</p>
-      <a href={project.github}><p>View on Github</p></a>
-      <a href={project.deployment}><p>Visit Website</p></a>
+      <div className='project-btns'>
+      <a href={project.github}><p><b>View on Github</b></p></a>
+      <a href={project.deployment}><p><b>Visit Website</b></p></a>
+      </div>
       </div>
     </div>
   )
