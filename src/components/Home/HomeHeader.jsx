@@ -16,8 +16,8 @@ const HomeHeader = () => {
         </Link>
       </div>
       <div className='right-container'>
-        <img src="/assets/1.svg" alt="Brooklin Lee" className='img-big'/>
-        <img src="/assets/dev-img-small.svg" alt="" className="small-img" />
+        <img src="/src/assets/1.svg" alt="Brooklin Lee" className='img-big'/>
+        <img src="/src/assets/dev-img-small.svg" alt="" className="small-img" />
       </div>
     </div>
   )
