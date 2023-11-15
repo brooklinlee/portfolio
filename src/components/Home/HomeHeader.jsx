@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom'
 
 // images
-import devBig from '../../assets/dev-big.svg'
+import devBig from '../../assets/images/dev-big.svg'
 
 // css
 import'./HomeHeader.css'
