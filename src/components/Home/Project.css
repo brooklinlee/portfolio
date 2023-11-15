@@ -30,7 +30,7 @@
 
 .carousel-img {
   margin-top: 5%;
-  width: 630px;
+  width: 500px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -40,7 +40,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 680px;
+  height: 650px;
 }
 
 .carousel-item-text {
@@ -49,7 +49,7 @@
 }
 
 .carousel-item-text h3 {
-  margin: 30px 0 10px 0;
+  margin: 40px 0 20px 0;
 }
 
 .carousel-btns {
@@ -93,4 +93,24 @@
 .indicator-btn:hover,
 .indicator-btn-active:hover {
   background-color: transparent;
+}
+
+@media (max-width: 800px) {
+  .project-spotlight {
+    font-size: 60px;
+  }
+
+  .carousel-item {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .carousel-img {
+    width: 380px;
+  }
+
+  .carousel-item-text h3,
+  .carousel-item-text p {
+    text-align: center;
+  }
 }
