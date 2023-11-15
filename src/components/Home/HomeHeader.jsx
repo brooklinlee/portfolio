@@ -1,3 +1,6 @@
+// imports
+import { Link } from 'react-router-dom'
+
 // css
 import'./HomeHeader.css'
 
@@ -8,7 +11,9 @@ const HomeHeader = () => {
         <h1>Hello! I'm</h1>
         <h1 id='name'>Brooklin Lee</h1>
         <p>Software Engineer</p>
-        <button>View Projects</button>
+        <Link to='/projects'>
+          <button>View Projects</button>
+        </Link>
       </div>
       <div className='right-container'>
         <img src="./src/assets/1.svg" alt="Brooklin Lee" className='img-big'/>

@@ -66,3 +66,32 @@
   color: var(link-color);
   padding-bottom: 14px;
 }
+
+@media (max-width: 800px) {
+.skills-container {
+  height: fit-content;
+}
+
+  .skills-container h1 {
+    font-size: 60px;
+    margin: 0 10%;
+  }
+
+  .skill-card-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+
+  .skill-card ul,
+  .skill-card h3,
+  .skill-card img {
+    padding-left: 16%;
+  }
+}
