@@ -50,7 +50,7 @@ function ProjectIndex() {
       name: 'The Silly Goose Grape-Venture',
       tech: 'HTML & CSS / JavaScript / Game Logic',
       image: tsggImg,
-      description: 'The Silly Goose Grape-Venture is a fun and whimsical Choose Your Own Adventure game inspired by the viral "Duck Song" that captivated early internet meme culture in 2009. In this interactive game, you step into the webbed feet of a silly goose on a quest for something to do and, hopefully, a delightful bunch of grapes to munch on. In this game, you will be presented with many choices at the bottom of the screen that will either lead you closer to the next stage of your quest or to an amusing game over. Some choices will move you forward to the next choice, while others will result in a game over. As a callback to the original internet song that inspired this game, there\'s no definitive way to "win," and you might find yourself caught in a silly loop as you continuously search for those elusive grapes.',
+      description: 'The Silly Goose Grape-Venture is a Choose Your Own Adventure game inspired by the "Duck Song" that captivated early internet meme culture in 2009. In this game, you play as a silly goose on a quest for something to do and, hopefully, some grapes. You will have choices at the bottom of the screen that will either move you forward in the story or lead to a game over. As a callback to the original internet song that inspired this game, there\'s no definitive way to "win," and you might find yourself caught in a silly loop as you continuously search for grapes.',
       github: 'https://github.com/brooklinlee/the-silly-goose-grapeventure.git',
       deployment: 'https://the-silly-goose-grapeventure.netlify.app/',
     },

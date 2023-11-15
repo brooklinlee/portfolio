@@ -1,5 +1,4 @@
-// 
-
+// css
 import './ProjectIndex.css'
 
 const ProjectBanner = ({project}) => {
