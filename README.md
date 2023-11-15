@@ -1,3 +1,13 @@
+
+# Attributions
+
+Send email directly through your code with EmailJS
+
+Video that helped me figure this out
+
+https://youtu.be/I4DKr1JLC50?si=Ufv9IKH1LNKv9nCU
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
