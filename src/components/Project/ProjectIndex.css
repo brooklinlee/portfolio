@@ -56,6 +56,10 @@
     flex-direction: column;
   }
 
+  .txt-box {
+    margin: 0 auto;
+  }
+
   .txt-box h3 {
     text-align: center;
   }
