@@ -7,37 +7,40 @@ import ProjectCard from './ProjectCard'
 // css
 import './Project.css'
 
+// images
+import wellFitImg from '../../assets/images/wellfit-pc.svg'
+import wandrImg from '../../assets/images/wandr-pc.svg'
+import wordWhimsyImg from '../../assets/images/word-whimsy-pc.svg'
+import yyhImg from '../../assets/images/yyh-pc.svg'
+import tsggImg from '../../assets/images/tsgg-pc.svg'
+
+
 const ProjectList = () => {
   const items = [  
     {
       name: 'WellFit - Workout Tracker',
       tech: 'Python / Django / Docker',
-      image: ('./src/assets/wellfit-pc.svg'),
-      // link: (),
+      image: wellFitImg,
     },
     {
       name: 'Wandr - Travel Themed Social Media',
       tech: 'Full-Stack / Group Git Workflow / React / MongoDB & Mongoose',
-      image:('./src/assets/wandr-pc.svg'),
-      // link: (),
+      image: wandrImg
     },
     {
       name: 'Word Whimsy - Online Journaling',
       tech: 'JavaScript / Express.js / MongoDB & Mongoose',
-      image: ('./src/assets/word-whimsy-pc.svg'),
-      // link: (),
+      image: wordWhimsyImg
     },
     {
       name: 'The Yum Yum Hub - Recipe Collector',
       tech: 'Python / Django / Docker',
-      image: ('./src/assets/yyh-pc.svg'),
-      // link: (),
+      image: yyhImg
     },
     {
       name: 'The Silly Goose Grape-Venture',
       tech: 'HTML & CSS / JavaScript / Game Logic',
-      image: ('./src/assets/tsgg-pc.svg'),
-      // link: (),
+      image: tsggImg
     },
   ]
 

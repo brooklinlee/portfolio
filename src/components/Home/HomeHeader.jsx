@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 // images
 import devBig from '../../assets/images/dev-big.svg'
+import devSmall from '../../assets/images/dev-small.svg'
 
 // css
 import'./HomeHeader.css'
@@ -20,7 +21,7 @@ const HomeHeader = () => {
       </div>
       <div className='right-container'>
         <img src={devBig} alt="Brooklin Lee" className='img-big'/>
-        <img src="/src/assets/dev-img-small.svg" alt="" className="small-img" />
+        <img src={devSmall} alt="Brooklin Lee" className="small-img" />
       </div>
     </div>
   )
