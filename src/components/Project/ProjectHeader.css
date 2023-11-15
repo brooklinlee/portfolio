@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .project-header-container {
     margin: 0 auto;
     height: 200px;

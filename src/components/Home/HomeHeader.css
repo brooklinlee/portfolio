@@ -75,7 +75,15 @@
   padding: 0;
 }
 
+.left-container h1 {
+  text-align: center;
+}
+
 .left-container p {
+  margin-bottom: 48px;
+}
+
+.left-container button {
   margin-bottom: 48px;
 }
 

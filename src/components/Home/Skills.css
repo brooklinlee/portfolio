@@ -88,10 +88,12 @@
     margin-bottom: 40px;
   }
 
-
   .skill-card ul,
-  .skill-card h3,
-  .skill-card img {
+  .skill-card h3 {
     padding-left: 16%;
+  }
+
+  .skill-card img {
+    padding-left: 38%;
   }
 }
