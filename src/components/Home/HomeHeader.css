@@ -54,3 +54,25 @@
   width: 720px;
   margin-right: 14%;
 }
+
+@media (max-width: 800px) {
+.home-header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.left-container {
+  width: 100%;
+  
+}
+
+  .right-container img {
+    width: 200px;
+    display: none;
+  }
+
+
+}
