@@ -6,6 +6,7 @@ Send email directly through your code with EmailJS
 Video that helped me figure this out
 
 https://youtu.be/I4DKr1JLC50?si=Ufv9IKH1LNKv9nCU
+https://www.youtube.com/watch?v=7huux0RAX30
 
 
 # React + Vite
