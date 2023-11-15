@@ -8,12 +8,12 @@ nav {
   justify-content: center;
   margin: 0;
   padding: 0;
-  margin-right: 28px;
   width: 100%;
 }
 
 nav a {
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   font-size: 24px;
   padding-top: 10px;
   font-weight: 800;

@@ -50,6 +50,7 @@
 
 .carousel-item-text h3 {
   margin: 40px 0 20px 0;
+  cursor: pointer;
 }
 
 .carousel-btns {
