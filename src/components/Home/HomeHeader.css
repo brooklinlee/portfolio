@@ -50,9 +50,13 @@
   align-items: center;
 }
 
-.right-container img {
+.right-container .img-big {
   width: 720px;
   margin-right: 14%;
+}
+
+.small-img{
+  display: none;
 }
 
 @media (max-width: 800px) {
@@ -61,18 +65,27 @@
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  
+  height: 800px;
 }
 
 .left-container {
   width: 100%;
-  
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-  .right-container img {
-    width: 200px;
+.left-container p {
+  margin-bottom: 48px;
+}
+
+  .img-big {
     display: none;
   }
 
+  .small-img {
+    display: flex;
+    width: 400px;
+  }
 
 }
