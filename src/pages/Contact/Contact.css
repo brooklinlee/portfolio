@@ -1,11 +1,11 @@
-h1 {
+.lets-chat {
   padding-top: 70px;
   font-size: 100px;
   text-align: center;
 }
 
-h3 {
-  margin: 4% 30%  2%;
+.say-hello {
+  margin: 4% 20%  2%;
   text-align: center;
 }
 
@@ -16,6 +16,16 @@ h3 {
 
 .contact-links img{
   width: 80px;
-  margin: 60px;
+  margin: 40px 80px;
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .lets-chat {
+    font-size: 60px;
+  }
+
+  .say-hello {
+    font-size: 20px;
+  }
 }
