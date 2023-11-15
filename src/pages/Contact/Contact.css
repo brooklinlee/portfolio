@@ -5,6 +5,17 @@ h1 {
 }
 
 h3 {
-  margin: 4% 20%  2%;
+  margin: 4% 30%  2%;
   text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links img{
+  width: 80px;
+  margin: 60px;
+  cursor: pointer;
 }
