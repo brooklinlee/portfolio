@@ -9,7 +9,7 @@ import devSmall from '../../assets/images/dev-small-alt.svg'
 import'./HomeHeader.css'
 
 const HomeHeader = () => {
-  const PNG_FILE_URL = 'https://brooklin-lee-portfolio.netlify.app/Brooklin_Lee_Software_Developer_Resume.pdf'
+  const PNG_FILE_URL = 'https://brooklin-lee-portfolio.netlify.app/BrooklinLee_SoftwareDeveloper.pdf'
   // const PNG_FILE_URL = 'http://localhost:5173/Brooklin_Lee_Software_Developer_Resume.pdf'
 
   const downloadFileAtURL = (url) => {
