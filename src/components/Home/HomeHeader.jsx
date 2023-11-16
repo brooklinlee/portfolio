@@ -2,8 +2,8 @@
 // import { Link } from 'react-router-dom'
 
 // images
-import devBig from '../../assets/images/dev-big.svg'
-import devSmall from '../../assets/images/dev-small.svg'
+import devBig from '../../assets/images/dev-big-alt.svg'
+import devSmall from '../../assets/images/dev-small-alt.svg'
 
 // css
 import'./HomeHeader.css'

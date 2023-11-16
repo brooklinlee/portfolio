@@ -1,7 +1,7 @@
 
 .project-header-container {
   height: 350px;
-  background-image: url('./src/assets/images/background-scribble.svg');
+  background-image: url('../../assets/images/background-scribble.svg');
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -50px;
