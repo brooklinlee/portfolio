@@ -14,6 +14,8 @@ One of the most satisfying things in life is being able to look at all of the pr
 
 Take a look at my portfolio today, and email me if you have any ideas for projects that I can build in the future!
 
+![Responsive Web Design](src/assets/images/responsive-design.png)
+
 ## Skills & Technologies Used ⚙️
 - Git/GitHub
 - Responsive Web Design
