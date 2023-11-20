@@ -44,7 +44,7 @@ function ProjectIndex() {
       image: yyhImg,
       description: 'Have you ever cooked a delicious meal, and wanted to save the recipe to make again another day? Look no farther! Save all of your favorite recipes in one place with The Yum Yum Hub Recipe Collector. Add cooking events to each recipe with notes to your future self to allow you to continually improve your recipe. ',
       github: 'https://github.com/brooklinlee/recipe-organizer.git',
-      deployment: 'https://github.com/brooklinlee/recipe-organizer.git',
+      deployment: 'https://theyumyumhubrecipecollector.fly.dev/',
     },
     {
       name: 'The Silly Goose Grape-Venture',
